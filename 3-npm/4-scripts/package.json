@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
+    "pretest": "node pretest.js",
     "test": "jest",
+    "posttest": "node -e 'console.log(\"Test completed..Hurray..\")'",
     "check": "eslint server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^5.4.0",
     "express": "^4.16.3",
     "jest": "^23.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0"
   }
 }

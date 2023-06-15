@@ -1,11 +1,11 @@
-const print = require('frame-print');
+const print = require('harsha-frame-print'); // we have published a package named 'harsha-frame-print' to npm registry and using it here.
 
-print('Hello NPM!');
+print('Hello My Package..!');
 
 /*
 Expected Output:
 
-**********
-Hello NPM!
-**********
+===================
+Hello My Package..!
+===================
 */
