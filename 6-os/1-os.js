@@ -1,3 +1,5 @@
+// More about OS module : https://nodejs.org/dist/latest-v18.x/docs/api/os.html
+
 const os = require('os');
 
 console.log('OS platform:', os.platform());

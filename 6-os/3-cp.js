@@ -6,7 +6,7 @@ pwd.stdout.pipe(process.stdout);
 
 // Read content of a file
 const { HOME } = process.env;
-const cat = spawn('cat', [`${HOME}/.bash_profile`]);
+const cat = spawn('cat', [`${HOME}/.gitconfig`]); // linux command
 cat.stdout.pipe(process.stdout);
 
 // List files
