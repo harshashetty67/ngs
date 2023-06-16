@@ -1,8 +1,8 @@
-const fs = require('fs').promises; // promise api of 'fs' module
+const fs = require('fs').promises;
 
 async function main() {
   const data = await fs.readFile(__filename);
-  await fs.writeFile(__filename + '.copy', data); //copying this file content to '6-promise-nesting.js.copy' file.
+  await fs.writeFile(__filename + '.copy', data); //copying the same content
   // More awaits here...
 }
 
